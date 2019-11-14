@@ -6,7 +6,8 @@
   "startup": "system",
   "boot": "auto",
   "ports": {
-    "8081/tcp": 8081
+    "8081/tcp": 8081,
+    "8081/tcp": 8080
    },
   "arch": [
     "aarch64",
@@ -28,7 +29,7 @@
   	"framerate": 2,
   	"text_right": "%Y-%m-%d %T-%q",
   	"target_dir": "/share/motion",
-  	"snapshot_interval": 30,
+  	"snapshot_interval": 2,
   	"snapshot_name": "%v-%Y%m%d%H%M%S-snapshot",
   	"picture_output": "on",
   	"picture_name": "%v-%Y%m%d%H%M%S-%q",
