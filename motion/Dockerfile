@@ -1,5 +1,5 @@
 
-FROM debian:jessie
+FROM arm64v8/debian
 
 RUN apt-get update && apt-get install -q -y --no-install-recommends \
     motion \
